@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: seashell;
+}
+
+#logo {
+    height: 10px;
+    width: 50px;
+}
+
+body {
+    width: 100%;
+}
+
+nav {
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: underline;
+    display: inline-flex;
+}
+
+ul li {
+    margin: 10px;
+}
+
+.mission-statement {
+    width: 1200px;
+    z-index: 1;
+    background-color: black;
+    position: relative;
+    top: 350px;
+    width: 100%;
+    padding: 5px;
+}
+
+img {
+    margin: 10px;
+}
+
+#mission-background {
+    height: 700px;
+    position: relative;
+    bottom: 80px;
+    z-index: 0;
+    width: 100%
+}
+
+.totm-images {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    justify-content: space-around;
+    position: relative;
+    left: 43%;
+    flex-shrink: 1;
+}
+
+.totm-text {
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 20%;
+}
+#location-title{
+    font-weight: 700;
+    padding: 40px;
+}
+.location-box {
+    align-items: flex-start;
+    width: 100%;
+    height: 500px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.loc-oakdale,
+.loc-east-bayside,
+.loc-downtown {
+    width: 300px;
+    background-color: black;
+    z-index: 2;
+    position: relative;
+    top: 250px;
+}
+#loc-bg{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    bottom: 550px;
+    z-index: 1;
+}
+#contact {
+    position: relative;
+    bottom: 500px;
+}
+#copyright {
+    text-align: left;
+    position: relative;
+    top: 500px;
+}
+
